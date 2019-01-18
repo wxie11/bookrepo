@@ -40,3 +40,15 @@ puts '2 * 5'
 #10
 #22222
 #2 * 5
+
+puts 'You\'re swell!'
+puts 'backslash at the end of a string: \\'
+puts 'up\\down'
+puts 'up\down'
+
+# OUTPUT:
+#
+#You're swell!
+#backslash at the end of a string: \
+#up\down
+#up\down
