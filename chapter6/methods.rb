@@ -37,3 +37,18 @@ puts 'What is your last name?'
 lname = gets.chomp
 letter = fname.length + mname.length + lname.length
 puts 'Did you know there are ' + letter.to_s + ' characters in your name?'
+
+letters = "aBcDefG"
+puts letters.upcase
+puts letters.downcase
+puts letters.swapcase
+puts letters.capitalize
+puts letters
+
+# OUTPUT:
+#
+#ABCDEFG
+#abcdefg
+#AbCdEFg
+#Abcdefg
+#aBcDefG
