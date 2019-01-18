@@ -45,5 +45,12 @@ puts gets
 
 puts 'hello there, and what\'s your name?'
 name = gets
+#here it got the letters you enter and also the Enter(new line)!
+puts 'Your name is ' + name + '? What a lovely name!'
+puts 'Pleased to meet you, ' + name + '. :)'
+
+puts 'hello there, and what\'s your name?'
+name = gets.chomp
+#here no more Enter(new line)
 puts 'Your name is ' + name + '? What a lovely name!'
 puts 'Pleased to meet you, ' + name + '. :)'
