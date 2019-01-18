@@ -28,3 +28,12 @@ puts 'What is your full name?'
 name = gets.chomp
 puts 'Did you know there are ' + name.length.to_s + ' characters ' #name.length -> error!
 puts 'in your name, ' + name + '?'
+
+puts 'What is your first name?'
+fname = gets.chomp
+puts 'What is your middle name?'
+mname = gets.chomp
+puts 'What is your last name?'
+lname = gets.chomp
+letter = fname.length + mname.length + lname.length
+puts 'Did you know there are ' + letter.to_s + ' characters in your name?'
