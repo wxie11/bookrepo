@@ -23,3 +23,8 @@ puts var3
 #stop
 #deliver repaid desserts
 #....TCELES B HSUP A magic spell?
+
+puts 'What is your full name?'
+name = gets.chomp
+puts 'Did you know there are ' + name.length.to_s + ' characters ' #name.length -> error!
+puts 'in your name, ' + name + '?'
