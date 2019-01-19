@@ -19,3 +19,15 @@ end
     end
   end
   puts 'ok bye T_T'
+
+puts 'Enter a start year:'
+s_year = gets.chomp
+puts 'Enter an end year:'
+e_year = gets.chomp
+year = s_year.to_i
+while year <= e_year.to_i
+  if year % 4 == 0
+    puts year.to_s + ' is a leap year'
+  end
+year = year + 1
+end
