@@ -79,3 +79,11 @@ puts 365%7
 #2
 #1
 #1
+
+puts (5-2).abs
+puts (2-5).abs
+
+# OUTPUT:
+#
+#3
+#3
