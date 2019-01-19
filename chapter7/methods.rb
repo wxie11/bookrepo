@@ -112,3 +112,15 @@ puts i_am_chris && i_like_beer
 puts i_like_beer && i_eat_rocks
 puts i_am_chris || i_like_beer
 puts !i_am_purple
+
+#
+while true
+  puts 'What woul you like to ask C to do?'
+  request = gets.chomp
+  puts 'You say, "C, please' + request + ' "'
+  puts 'C\'s response: '
+  puts '"Papa ' + request + '."'
+  if request == 'stop'
+    break
+  end
+end
