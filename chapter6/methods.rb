@@ -61,7 +61,21 @@ puts( 'And scared her poor shoe dog away'.center(line_width))
 
 line_width = 40
 str = '--> text <--'
-puts(str.ljust(line_width))        
+puts(str.ljust(line_width))
 puts(str.center(line_width))
 puts(str.rjust(line_width))
 puts(str.ljust(line_width/2) + str.rjust(line_width/2) )
+
+puts 5**2
+puts 5**0.5
+puts 7/3
+puts 7%3
+puts 365%7
+
+# OUTPUT:
+#
+#25
+#2.23606797749979
+#2
+#1
+#1
