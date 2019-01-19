@@ -34,6 +34,27 @@ if name == 'Chris'
   puts 'what a lovely name!'
 end
 
+puts 'hello, what\'s your name?'
+name = gets.chomp
+puts 'hello, ' + name + '.'
+if name == 'Chris'
+  puts 'what a lovely name!'
+else
+  if name == 'Katy'
+    puts 'What a lovely name!'
+  end
+end
+
+puts 'hello, what\'s your name?'
+name = gets.chomp
+puts 'hello, ' + name + '.'
+if name == 'Chris'
+  puts 'what a lovely name!'
+elseif name == 'Katy'
+    puts 'What a lovely name!'
+  end
+end
+
 puts 'I am a fortune-teller. Tell me your name:'
 name = gets.chomp
 if name =='Chris'
