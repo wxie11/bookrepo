@@ -54,6 +54,12 @@ elsif name == 'Katy'
     puts 'What a lovely name!'
 end
 
+puts 'hello, what\'s your name?'
+name = gets.chomp
+puts 'hello, ' + name + '.'
+if name == 'Chris' || name == 'Katy'
+  puts 'what a lovely name!'
+end
 
 puts 'I am a fortune-teller. Tell me your name:'
 name = gets.chomp
