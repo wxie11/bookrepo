@@ -50,10 +50,10 @@ name = gets.chomp
 puts 'hello, ' + name + '.'
 if name == 'Chris'
   puts 'what a lovely name!'
-elseif name == 'Katy'
+elsif name == 'Katy'
     puts 'What a lovely name!'
-  end
 end
+
 
 puts 'I am a fortune-teller. Tell me your name:'
 name = gets.chomp
