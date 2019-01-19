@@ -26,6 +26,7 @@ puts '2'<'10'
 #true
 #false
 
+#branching
 puts 'hello, what\'s your name?'
 name = gets.chomp
 puts 'hello, ' + name + '.'
@@ -57,3 +58,5 @@ else
     puts 'Get out!'
   end
 end
+
+#looping
