@@ -15,3 +15,18 @@ while Time.local(year+age, month, day) <= time
   puts "SPANK! Age = #{age}"
   age = age + 1
 end
+
+#Birthday helper!
+birth_dates = {}
+File.read('names.txt').each_line do |line|
+    name,date,year = line.split(',')
+    birth_dates[name]=Time.gm(year, *(date.split))
+end
+puts 'whose birthday you are checking?'
+check = gets.chomp
+bday = birth_dates[check]
+if bday = nil
+  puts "no record is found"
+else
+  puts bday
+end
